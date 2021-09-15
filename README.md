@@ -1,6 +1,6 @@
 # Stockscraper
 This project consists of the program taking and storing information from YahooFinance, then visualizing the acquired data in an appropriate format.
-The goal of the project is to create a stock market index for the swedish large cap industrial companies and compare the result to the Stockholm market index for the 30 most traded stocks (OMXS30) over a 10 year period, starting at september the 9th 2011 and ending september the 9th 2021 (the day this project was initialised).
+The goal of the project is to create a stock market index for the swedish large cap industrial companies and compare the result to the Stockholm market index for the 30 most traded stocks (OMXS30) over a 10 year period, starting at september the 9th 2011 and ending september the 9th 2021 (the day this project was started).
 
 The program works in the following way:
 - First, a MySQL database and a empty table is created ready to be filled in with information about the companies.
