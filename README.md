@@ -4,8 +4,8 @@ The goal of the project is to create a stock market index for the swedish large 
 
 The program works in the following way:
 - First, a MySQL database and a empty table is created ready to be filled in with information about the companies.
-- Secondly a webscraper is created that is able to gather the information from the chosen website through iteration within a while-loop
-- Thirdly a second table is created within the database that temporarily stores the acquired data, which then is merged with the first table.
+- Secondly, a webscraper is created that is able to gather the information from the chosen website through iteration within a while-loop
+- Thirdly, a second table is created within the database that temporarily stores the acquired data, which then is merged with the first table.
 - Fourthly, When the tables are merged the insertion of the data from the temporary table begins, where the data from the first table is already available i.e the tickersymbols for the stocks.
 - Fifthly, the data is visualized through plots, in this case stock charts.
 
